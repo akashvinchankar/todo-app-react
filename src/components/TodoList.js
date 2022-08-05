@@ -11,8 +11,7 @@ const TodoList = ({todos, handleDelete, handleEdit}) => {
           <button onClick={() => handleDelete(t.id)}>Delete</button>
         </li>
       ))
-    };
-
+    }
   </ul>
   );
 };
